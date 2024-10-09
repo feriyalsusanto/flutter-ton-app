@@ -1,14 +1,14 @@
 import 'dart:convert';
+import 'dart:js_interop';
 
 import 'package:convert/convert.dart';
 import 'package:flutter/material.dart';
-import 'package:js/js.dart';
-import 'package:js/js_util.dart';
 import 'package:shadcn_ui/shadcn_ui.dart';
 import 'package:telegram_web_app/telegram_web_app.dart';
 import 'package:ton_dart/ton_dart.dart';
 import 'package:ton_miniapp/model.dart';
 import 'package:universal_html/html.dart';
+import 'package:universal_html/js_util.dart';
 
 @JS()
 external String connectTonWallet();
